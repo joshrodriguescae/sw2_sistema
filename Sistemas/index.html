@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+   
+    <body>
+        <div class="header">
+            <h1>SneakerStore</h1>
+            <p>Catálogo Premium de Tênis Esportivos</p>
+        </div>
+    
+        <div class="produtos-container">
+            <div class="produto">
+                <div class="imagem-produto">
+                    <img src="https://via.placeholder.com/300x200/667eea/ffffff?text=Nike+Precision+7" alt="Nike Precision 7">
+                </div>
+                <div class="produto-nome">Nike Precision 7</div>
+                <div class="descricao">Tênis leve e confortável, ideal para quem busca agilidade e controle nas quadras.</div>
+                <div class="preco">R$ 270,90</div>
+                <button class="botao-carrinho" onclick="adicionarAoCarrinho('Nike Precision 7', 270.90)">Adicionar ao carrinho</button>
+            </div>
+    
+            <div class="produto">
+                <div class="imagem-produto">
+                    <img src="https://via.placeholder.com/300x200/764ba2/ffffff?text=Nike+Jordan" alt="Nike Jordan">
+                </div>
+                <div class="produto-nome">Nike Jordan</div>
+                <div class="descricao">Clássico e estiloso, o Jordan 1 une conforto e atitude, dentro ou fora das quadras.</div>
+                <div class="preco">R$ 290,90</div>
+                <button class="botao-carrinho" onclick="adicionarAoCarrinho('Nike Jordan', 290.90)">Adicionar ao carrinho</button>
+            </div>
+    
+            <div class="produto">
+                <div class="imagem-produto">
+                    <img src="https://via.placeholder.com/300x200/ff6b6b/ffffff?text=LeBron+18" alt="LeBron 18">
+                </div>
+                <div class="produto-nome">LeBron 18</div>
+                <div class="descricao">Tênis potente e confortável, feito para quem busca desempenho máximo nas quadras.</div>
+                <div class="preco">R$ 300,00</div>
+                <button class="botao-carrinho" onclick="adicionarAoCarrinho('LeBron 18', 300.00)">Adicionar ao carrinho</button>
+            </div>
+    
+            <div class="produto">
+                <div class="imagem-produto">
+                    <img src="https://via.placeholder.com/300x200/4ecdc4/ffffff?text=LeBron+19" alt="LeBron 19">
+                </div>
+                <div class="produto-nome">LeBron 19</div>
+                <div class="descricao">Com ótimo amortecimento e suporte, o LeBron 19 é ideal para jogos intensos e cheios de impacto.</div>
+                <div class="preco">R$ 345,00</div>
+                <button class="botao-carrinho" onclick="adicionarAoCarrinho('LeBron 19', 345.00)">Adicionar ao carrinho</button>
+            </div>
+    
+            <div class="produto">
+                <div class="imagem-produto">
+                    <img src="https://via.placeholder.com/300x200/45b7d1/ffffff?text=LeBron+20" alt="LeBron 20">
+                </div>
+                <div class="produto-nome">LeBron 20</div>
+                <div class="descricao">Leve, moderno e ágil, o LeBron 20 foi feito para velocidade e conforto dentro das quadras.</div>
+                <div class="preco">R$ 350,90</div>
+                <button class="botao-carrinho" onclick="adicionarAoCarrinho('LeBron 20', 350.90)">Adicionar ao carrinho</button>
+            </div>
+    
+            <div class="produto">
+                <div class="imagem-produto">
+                    <img src="https://via.placeholder.com/300x200/96ceb4/ffffff?text=LeBron+21" alt="LeBron 21">
+                </div>
+                <div class="produto-nome">LeBron 21</div>
+                <div class="descricao">Com design elegante e tecnologia avançada, o LeBron 21 oferece suporte e leveza para performance de alto nível.</div>
+                <div class="preco">R$ 390,90</div>
+                <button class="botao-carrinho" onclick="adicionarAoCarrinho('LeBron 21', 390.90)">Adicionar ao carrinho</button>
+            </div>
+    
+            <div class="produto">
+                <div class="imagem-produto">
+                    <img src="https://via.placeholder.com/300x200/feca57/ffffff?text=Giannis+Immortality+3" alt="Giannis Immortality 3">
+                </div>
+                <div class="produto-nome">Giannis Immortality 3</div>
+                <div class="descricao">Leve e responsivo, o Giannis Immortality 3 é perfeito para quem joga com velocidade e intensidade.</div>
+                <div class="preco">R$ 400,00</div>
+                <button class="botao-carrinho" onclick="adicionarAoCarrinho('Giannis Immortality 3', 400.00)">Adicionar ao carrinho</button>
+            </div>
+    
+            <div class="produto">
+                <div class="imagem-produto">
+                    <img src="https://via.placeholder.com/300x200/ff9ff3/ffffff?text=Curry+1" alt="Curry 1">
+                </div>
+                <div class="produto-nome">Curry 1</div>
+                <div class="descricao">Primeiro tênis da linha do Stephen Curry, com bom amortecimento, suporte e estilo marcante. Ideal para jogar ou usar no dia a dia.</div>
+                <div class="preco">R$ 435,90</div>
+                <button class="botao-carrinho" onclick="adicionarAoCarrinho('Curry 1', 435.90)">Adicionar ao carrinho</button>
+            </div>
+    
+            <div class="produto">
+                <div class="imagem-produto">
+                    <img src="https://via.placeholder.com/300x200/54a0ff/ffffff?text=Curry+2" alt="Curry 2">
+                </div>
+                <div class="produto-nome">Curry 2</div>
+                <div class="descricao">Com melhor grip e estabilidade, o Curry 2 é focado em performance. Seu design moderno e a tecnologia Charged Cushioning garantem conforto e agilidade.</div>
+                <div class="preco">R$ 450,90</div>
+                <button class="botao-carrinho" onclick="adicionarAoCarrinho('Curry 2', 450.90)">Adicionar ao carrinho</button>
+            </div>
+    
+            <div class="produto">
+                <div class="imagem-produto">
+                    <img src="https://via.placeholder.com/300x200/5f27cd/ffffff?text=Curry+3" alt="Curry 3">
+                </div>
+                <div class="produto-nome">Curry 3</div>
+                <div class="descricao">Tênis leve e confortável, com ótima tração e suporte para movimentos rápidos. Ideal para quem busca agilidade e estilo nas quadras.</div>
+                <div class="preco">R$ 500,00</div>
+                <button class="botao-carrinho" onclick="adicionarAoCarrinho('Curry 3', 500.00)">Adicionar ao carrinho</button>
+            </div>
+    
+            <div class="produto">
+                <div class="imagem-produto">
+                    <img src="https://via.placeholder.com/300x200/00d2d3/ffffff?text=Curry+4" alt="Curry 4">
+                </div>
+                <div class="produto-nome">Curry 4</div>
+                <div class="descricao">É um tênis leve, confortável e feito para quem gosta de agilidade nas quadras. Ele tem boa aderência, ajuste firme no pé e um visual moderno, inspirado no estilo do jogador Stephen Curry.</div>
+                <div class="preco">R$ 550,00</div>
+                <button class="botao-carrinho" onclick="adicionarAoCarrinho('Curry 4', 550.00)">Adicionar ao carrinho</button>
+            </div>
+    
+            <div class="produto">
+                <div class="imagem-produto">
+                    <img src="https://via.placeholder.com/300x200/ff6348/ffffff?text=Curry+5" alt="Curry 5">
+                </div>
+                <div class="produto-nome">Curry 5</div>
+                <div class="descricao">Leve, com bom ajuste e ótima tração. Feito para agilidade e controle nas quadras.</div>
+                <div class="preco">R$ 750,00</div>
+                <button class="botao-carrinho" onclick="adicionarAoCarrinho('Curry 5', 750.00)">Adicionar ao carrinho</button>
+            </div>
+        </div>
+    
+        <button id="btn-carrinho" onclick="abrirCarrinho()" aria-label="Abrir carrinho">
+            🛒
+            <span id="contator-quantidade">0</span>
+        </button>
+    
+        <div class="toast" id="toast">
+            Produto adicionado ao carrinho!
+        </div>
+</html>
