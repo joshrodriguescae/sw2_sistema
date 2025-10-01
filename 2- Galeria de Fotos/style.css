@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: azure;
+    background-color: rgb(4, 70, 100);
     padding: 20px;
     color: blue;
 }
@@ -27,7 +27,7 @@ h1 {
 .cartao-foto {
     background-color: rgb(44, 44, 196);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     transition: transform 0.2s ease;
@@ -47,6 +47,10 @@ h1 {
     display: block;
 
 
+}
+
+.cartao-foto span {
+    color: black;
 }
 
 .acoes {
