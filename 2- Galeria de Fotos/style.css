@@ -33,13 +33,50 @@ h1 {
     transition: transform 0.2s ease;
 }
 
-.cartao-foto {
+.cartao-foto :hover {
     transform: translateY(-5px);
 }
 
 .cartao-foto img {
     width: 100%;
+    height: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
     border-radius: 10px 10px 0 0;
     display: block;
 
+
+}
+
+.acoes {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-top: 1px solid #4e8ab1;
+    gap: 20px;
+}
+
+.grupo-curtir,
+.grupo-comentario {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.acoes button {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.2s ease;
+}
+
+.acoes button:houver {
+    transform: scale(1.2);
+}
+
+.botao-curtir.curtido {
+    color: red;
 }
